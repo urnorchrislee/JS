@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>星星还特效</title>
+    <style>
+        *{margin: 0; padding: 0; border: 0; list-style-type: none;}
+        html, body{
+            width: 100%;
+            height: 100%;
+            background-color: #000;
+        }
+        .main{
+            width: 100%;
+            height: 100%;
+
+            position: relative;
+        }
+        .main span{
+            width: 28px;
+            height: 28px;
+            background: url("images/star.png") no-repeat;
+            background-size: 28px 28px;
+
+            position: absolute;
+            left: 0;
+            top:0;
+
+            animation: bling 1s infinite linear;
+            transition: all 2s;
+        }
+
+        @keyframes bling {
+            0%{
+                opacity: 0;
+            }
+            50%{
+                opacity: 1;
+            }
+            100%{
+                opacity: 0.8;
+            }
+        }
+        
+        span:hover{
+            background-color: #fff;
+            transform: rotate(360deg) scale(2) !important;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <span></span>
+    </div>
+
+<script>
+    window.onload = function(){
+        // 获取标签
+        var mainDiv = document.getElementsByClassName('main')[0];
+
+        var clientW = document.documentElement.clientWidth - 28;
+        var clientH = document.documentElement.clientHeight - 28;
+
+        for(var i=0; i<100; i++){
+            //创建标签
+            var span = document.createElement('span');
+
+            // 设置位置
+            span.style.left = parseInt(Math.random() * clientW) + 'px';
+            span.style.top = parseInt(Math.random() * clientH) + 'px';
+
+            // 随机大小,随机角度
+            span.style.transform = 'scale('+ Math.random() * 1.8+') rotate('+ Math.random() * 360+'deg)';
+            span.style.animationDelay = Math.random()*3+'s';
+
+            // 添加到main
+            mainDiv.appendChild(span);
+        }
+    }
+</script>
+</body>
+</html>
