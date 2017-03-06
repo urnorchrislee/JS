@@ -1,0 +1,20 @@
+.chartcontainer {
+    width: 100%;
+    text-align: center;
+}
+/*#region Colors*/
+.themeprimary {
+    color: #2dc3e8 !important;
+}
+.themesecondary {
+    color: #fb6e52 !important;
+}
+.themethirdcolor {
+    color: #ffce55 !important;
+}
+.themefourthcolor {
+    color: #a0d468 !important;
+}
+.themefifthcolor {
+    color: #e75b8d !important;
+}
