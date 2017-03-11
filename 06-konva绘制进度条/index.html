@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>konva绘制进度条</title>
+</head>
+<body>
+
+<div id="container"></div>
+
+<script src="js/konva.js"></script>
+<script src="js/ProgressBar.js"></script>
+<script>
+    //1.创建舞台
+    var stage = new Konva.Stage({
+        width:window.innerWidth,
+        height:window.innerHeight,
+        container:'container'
+    });
+
+    //2.创建层
+    var layer = new Konva.Layer({});
+    //将层添加到舞台上
+    stage.add(layer);
+
+    //3.实例化进度条对象
+    var progressBar = new ProgressBar({
+        x:1/8 * stage.width(),//注意:通过函数调用获取舞台的宽高
+        y:1/2 * stage.height(),
+        width:3/4 *stage.width(),
+        height:1/20 * stage.height(),
+
+        fill:'red',
+        stroke:'#e0e0e0',
+        strokeWidth:8,
+        cornerRadius:10, //圆角
+//        opacity:0.9, //透明度
+        value:0.3 ,//宽度比例
+        duration:3 //动画时间
+    });
+    //4.调用渲染函数
+    progressBar.render(layer);
+
+    //5.调用动画
+    progressBar.playAnimation();
+
+    //6.绘制层,所有内容都是要添加到层上绘制
+    layer.draw();
+
+
+</script>
+
+</body>
+</html>
