@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>konva绘制饼状图</title>
+</head>
+<body>
+
+<!--舞台容器-->
+<div id="container"></div>
+
+<script src="js/konva.js"></script>
+<script src="js/PieChart.js"></script>
+<script>
+    //1.创建舞台
+    var stage = new Konva.Stage({
+        width:window.innerWidth,
+        height:window.innerHeight,
+        container:'container'
+    });
+
+    //2.创建层
+    var layer = new Konva.Layer({});
+    //将层添加到舞台上
+    stage.add(layer);
+
+    //3.数据
+    var dataArr = [
+        {name:'北京', color:'pink', value:0.3},
+        {name:'上海', color:'red', value:0.2},
+        {name:'深圳', color:'purple', value:0.1},
+        {name:'广州', color:'blue', value:0.15},
+        {name:'杭州', color:'green', value:0.25}
+    ];
+
+    //4.常量
+    //圆心
+    var x0 = stage.width()* 0.5, y0 = stage.height() * 0.5;
+    //内外圆半径
+    var innerRadius = 160, outerRadius = 180;
+
+    //5.实例化对象
+    var pieChart = new PieChart({
+        x:x0,
+        y:y0,
+        innerRadius:innerRadius,
+        outerRadius:outerRadius,
+
+        outerColor:'#ccc',
+        outerWidth:10,
+
+        dataArr:dataArr
+    });
+    //渲染
+    pieChart.render(layer);
+
+    //绘制层
+    layer.draw();
+
+    //绑定事件
+    stage.on('contentClick', function () {
+        pieChart.playAnimation();
+    });
+
+
+
+</script>
+
+</body>
+</html>

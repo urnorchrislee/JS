@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39314aa4-124c-43ca-9ba3-d19cd8c5f731" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/06-konva绘制进度条/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/06-konva绘制进度条/js/ProgressBar.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/06-konva绘制进度条/js/konva.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/07-konva2d旋转/js/konva.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/07-konva绘制饼状图/js/konva.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/07-konva绘制饼状图/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/07-konva绘制饼状图/js/PieChart.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/07-konva2d旋转/js/konva.js" afterPath="$PROJECT_DIR$/08-konva2d旋转/js/konva.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="JS.iws" />
@@ -30,11 +28,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/06-konva绘制进度条/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+            <state relative-caret-position="192">
+              <caret line="29" column="33" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PieChart.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/07-konva绘制饼状图/js/PieChart.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4680">
+              <caret line="195" column="0" selection-start-line="195" selection-start-column="0" selection-end-line="195" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/07-konva绘制饼状图/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -55,8 +73,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -69,6 +87,8 @@
         <option value="$PROJECT_DIR$/05-konva简单使用/index.html" />
         <option value="$PROJECT_DIR$/06-konva绘制进度条/js/ProgressBar.js" />
         <option value="$PROJECT_DIR$/06-konva绘制进度条/index.html" />
+        <option value="$PROJECT_DIR$/07-konva绘制饼状图/js/PieChart.js" />
+        <option value="$PROJECT_DIR$/07-konva绘制饼状图/index.html" />
       </list>
     </option>
   </component>
@@ -138,25 +158,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="06-konva绘制进度条" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="06-konva绘制进度条" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
+              <option name="myItemId" value="07-konva绘制饼状图" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -240,12 +242,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1489234586866</updated>
-      <workItem from="1489234588293" duration="1970000" />
+      <workItem from="1489234588293" duration="2157000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1970000" />
+    <option name="totallyTimeSpent" value="2157000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="55" y="79" width="1680" height="1023" extended-state="0" />
@@ -325,7 +327,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/07-konva2d旋转/js/konva.js">
+    <entry file="file://$PROJECT_DIR$/08-konva2d旋转/js/konva.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -351,8 +353,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/06-konva绘制进度条/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+        <state relative-caret-position="192">
+          <caret line="29" column="33" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/07-konva绘制饼状图/js/PieChart.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4680">
+          <caret line="195" column="0" selection-start-line="195" selection-start-column="0" selection-end-line="195" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/07-konva绘制饼状图/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
           <folding />
         </state>
       </provider>
