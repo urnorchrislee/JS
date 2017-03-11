@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Konva简单使用</title>
+</head>
+<body>
+
+<div id="container"></div>
+
+<script src="js/konva.js"></script>
+<script>
+
+    /*
+        使用konva绘制简单的图形
+        01.使用script标签导入konva.js框架
+        02.存放舞台的div
+            <div id="container"></div>
+        03.创建舞台
+        04.创建层
+        05.创建一个组
+        06.创建演员
+        07.对层进行绘制
+    */
+
+    var stage = new Konva.Stage({
+        width: window.innerWidth,
+        height: window.innerHeight,
+        container: 'container'
+    });
+
+    var layer = new Konva.Layer({});
+
+    stage.add(layer);
+
+
+    var group = new Konva.Group({
+        x: window.innerWidth * 0.5,
+        y: window.innerHeight * 0.5
+    })
+
+    layer.add(group);
+
+
+    var rect = new Konva.Rect({
+        x: -150,
+        y: -50,
+        width: 300,
+        height: 100,
+
+        fill: '#ccc'
+    });
+
+    group.add(rect);
+
+
+    layer.draw();
+</script>
+
+</body>
+</html>
