@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>这是一个时钟</title>
+</head>
+<body style="padding: 100px">
+
+<canvas id="canvas" width="900" height="600" style="border: 1px solid #000;"></canvas>
+
+<script>
+    // 获取canvas
+    var canvas = document.getElementById('canvas');
+    var ctx = canvas.getContext('2d');
+
+
+    // 圆心
+    var x0 = canvas.width*0.5;
+    var y0 = canvas.height*0.5;
+    var r = 150;
+
+    //绘制一些不会动的东西
+    function renderClock() {
+        // 大圆
+        ctx.beginPath();
+        ctx.strokeStyle = 'pink';
+        ctx.lineWidth = 10;
+        ctx.arc(x0, y0, 200, 0, 2*Math.PI);
+        ctx.stroke();
+
+
+        // 开始画表盘
+        ctx.beginPath();
+        ctx.strokeStyle = 'black';
+
+        // 画线
+        for(var i=0; i<=60; i++){
+            ctx.beginPath();
+
+            //计算角度
+            var tempAngle = i * 6;
+//        console.log(tempAngle);
+
+            // 计算弧度
+            var x = x0 + Math.cos(tempAngle * Math.PI/180)*(r+10);
+            var y = y0 + Math.sin(tempAngle * Math.PI/180)*(r+10);
+
+            ctx.moveTo(x0, y0);
+            ctx.lineTo(x, y);
+
+            // 描边
+            if(i % 5 != 0){
+                ctx.lineWidth = 5;
+            } else {
+                ctx.lineWidth = 10;
+            }
+            ctx.stroke();
+        }
+    }
+
+    // 让分针动起来
+    // 分针每隔一秒转动一次
+    // 获取当前时间
+    var myDate;
+    var minSecond;
+    var second;
+    var minute;
+    var hour;
+    (function () {
+
+        setInterval(function () {
+
+            // 获取时间
+            myDate = new Date();
+            minSecond = myDate.getMilliseconds();
+            second = myDate.getSeconds() + minSecond/1000;
+            minute = myDate.getMinutes() +second/60;
+            hour = myDate.getHours()%12+minute/60;
+
+
+            console.log(hour, minute, second);
+
+            // 清屏幕
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+            //静态的东西
+            renderClock();
+            // 大圆
+            ctx.beginPath();
+            ctx.fillStyle = '#fff' ;
+            ctx.lineWidth = 10;
+            ctx.arc(x0, y0, 150, 0, 2*Math.PI);
+            ctx.fill();
+
+
+            //计算角度
+            var tempAngle = parseInt(second) * 6 -90;
+
+            // 计算弧度
+            var x = x0 + Math.cos(tempAngle * Math.PI/180)*(r+10);
+            var y = y0 + Math.sin(tempAngle * Math.PI/180)*(r+10);
+
+
+            // 话秒针
+            ctx.beginPath();
+            ctx.strokeStyle = 'red';
+            ctx.lineWidth = 5;
+            ctx.moveTo(x0, y0);
+            ctx.lineTo(x, y);
+            ctx.stroke();
+
+            ////////////////////////
+            //计算角度
+            var tempAngle1 = parseInt(minute) * 6 -90;
+
+            // 计算弧度
+            var x1 = x0 + Math.cos(tempAngle1 * Math.PI/180)*(r-10);
+            var y1 = y0 + Math.sin(tempAngle1 * Math.PI/180)*(r-10);
+
+
+            // 话分针
+            ctx.beginPath();
+            ctx.strokeStyle = '#000';
+            ctx.lineWidth = 5;
+            ctx.moveTo(x0, y0);
+            ctx.lineTo(x1, y1);
+            ctx.stroke();
+
+            //计算角度
+            var tempAngle2 = parseInt(hour) * 30 -90;
+
+            // 计算弧度
+            var x2 = x0 + Math.cos(tempAngle2 * Math.PI/180)*(r-40);
+            var y2 = y0 + Math.sin(tempAngle2 * Math.PI/180)*(r-40);
+
+
+            // 话时针
+            ctx.beginPath();
+            ctx.strokeStyle = '#000';
+            ctx.lineWidth = 10;
+            ctx.moveTo(x0, y0);
+            ctx.lineTo(x2, y2);
+            ctx.stroke();
+
+
+        }, 1000)
+    })();
+
+</script>
+
+</body>
+</html>
