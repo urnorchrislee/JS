@@ -2,17 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39314aa4-124c-43ca-9ba3-d19cd8c5f731" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/14-Echart微博签到数据点亮中国/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/14-Echart微博签到数据点亮中国/js/china.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/14-Echart微博签到数据点亮中国/js/echarts.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/14-Echart微博签到数据点亮中国/js/jQuery.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/14-Echart微博签到数据点亮中国/weibo.json" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/11-EChart柱状图/index.html" afterPath="$PROJECT_DIR$/11-ECharts柱状图/index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/11-EChart柱状图/js/echarts.js" afterPath="$PROJECT_DIR$/11-ECharts柱状图/js/echarts.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/12-EChart折线图/index.html" afterPath="$PROJECT_DIR$/12-ECharts折线图/index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/12-EChart折线图/js/echarts.js" afterPath="$PROJECT_DIR$/12-ECharts折线图/js/echarts.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/13-EChart柱状图/index.html" afterPath="$PROJECT_DIR$/13-ECharts柱状图/index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/13-EChart柱状图/js/echarts.js" afterPath="$PROJECT_DIR$/13-ECharts柱状图/js/echarts.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/15-EChart飞机航线/flights.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/15-EChart飞机航线/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/15-EChart飞机航线/js/echarts.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/15-EChart飞机航线/js/jQuery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/15-EChart飞机航线/js/world.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="JS.iws" />
@@ -56,11 +50,43 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/14-Echart微博签到数据点亮中国/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
               <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/15-EChart飞机航线/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="173">
+              <caret line="65" column="28" selection-start-line="65" selection-start-column="28" selection-end-line="65" selection-end-column="28" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="world.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/15-EChart飞机航线/js/world.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="flights.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/15-EChart飞机航线/flights.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="0" column="915" selection-start-line="0" selection-start-column="915" selection-end-line="0" selection-end-column="915" />
               <folding />
             </state>
           </provider>
@@ -116,6 +142,7 @@
         <option value="$PROJECT_DIR$/12-EChart折线图/index.html" />
         <option value="$PROJECT_DIR$/13-EChart柱状图/index.html" />
         <option value="$PROJECT_DIR$/14-Echart微博签到数据点亮中国/index.html" />
+        <option value="$PROJECT_DIR$/15-EChart飞机航线/index.html" />
       </list>
     </option>
   </component>
@@ -176,6 +203,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="JS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="15-EChart飞机航线" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -190,11 +231,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/15-EChart飞机航线/js" />
+      <recent name="$PROJECT_DIR$/15-EChart飞机航线" />
       <recent name="$PROJECT_DIR$/14-Echart微博签到数据点亮中国" />
       <recent name="$PROJECT_DIR$/14-Echart微博签到数据点亮中国/js" />
       <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/12-EChart柱状图" />
-      <recent name="$PROJECT_DIR$/13-EChart饼状图" />
     </key>
   </component>
   <component name="RunManager">
@@ -263,18 +304,18 @@
       <option name="presentableId" value="Default" />
       <updated>1489234586866</updated>
       <workItem from="1489234588293" duration="2969000" />
-      <workItem from="1489285288927" duration="1143000" />
+      <workItem from="1489285288927" duration="1243000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4112000" />
+    <option name="totallyTimeSpent" value="4212000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="85" y="23" width="1680" height="1023" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -524,6 +565,32 @@
         <state relative-caret-position="240">
           <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/15-EChart飞机航线/flights.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="0" column="915" selection-start-line="0" selection-start-column="915" selection-end-line="0" selection-end-column="915" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/15-EChart飞机航线/js/world.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/15-EChart飞机航线/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="65" column="28" selection-start-line="65" selection-start-column="28" selection-end-line="65" selection-end-column="28" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
