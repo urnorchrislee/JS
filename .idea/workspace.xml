@@ -2,11 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39314aa4-124c-43ca-9ba3-d19cd8c5f731" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/16-EChart模拟迁徙/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/16-EChart模拟迁徙/js/china.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/16-EChart模拟迁徙/js/echarts.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/16-EChart模拟迁徙/js/jQuery.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/14-Echart微博签到数据点亮中国/index.html" afterPath="$PROJECT_DIR$/14-Echarts微博签到数据点亮中国/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/14-Echart微博签到数据点亮中国/js/china.js" afterPath="$PROJECT_DIR$/14-Echarts微博签到数据点亮中国/js/china.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/14-Echart微博签到数据点亮中国/js/echarts.js" afterPath="$PROJECT_DIR$/14-Echarts微博签到数据点亮中国/js/echarts.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/14-Echart微博签到数据点亮中国/js/jQuery.js" afterPath="$PROJECT_DIR$/14-Echarts微博签到数据点亮中国/js/jQuery.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/14-Echart微博签到数据点亮中国/weibo.json" afterPath="$PROJECT_DIR$/14-Echarts微博签到数据点亮中国/weibo.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/15-EChart飞机航线/flights.json" afterPath="$PROJECT_DIR$/15-ECharts飞机航线/flights.json" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/15-EChart飞机航线/index.html" afterPath="$PROJECT_DIR$/15-ECharts飞机航线/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/15-EChart飞机航线/js/echarts.js" afterPath="$PROJECT_DIR$/15-ECharts飞机航线/js/echarts.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/15-EChart飞机航线/js/jQuery.js" afterPath="$PROJECT_DIR$/15-ECharts飞机航线/js/jQuery.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/15-EChart飞机航线/js/world.js" afterPath="$PROJECT_DIR$/15-ECharts飞机航线/js/world.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/16-EChart模拟迁徙/index.html" afterPath="$PROJECT_DIR$/16-ECharts模拟迁徙/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/16-EChart模拟迁徙/js/china.js" afterPath="$PROJECT_DIR$/16-ECharts模拟迁徙/js/china.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/16-EChart模拟迁徙/js/echarts.js" afterPath="$PROJECT_DIR$/16-ECharts模拟迁徙/js/echarts.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/16-EChart模拟迁徙/js/jQuery.js" afterPath="$PROJECT_DIR$/16-ECharts模拟迁徙/js/jQuery.js" />
     </list>
     <ignored path="JS.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,10 +39,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/16-EChart模拟迁徙/index.html">
+        <entry file="file://$PROJECT_DIR$/16-ECharts模拟迁徙/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+            <state relative-caret-position="264">
+              <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
               <folding>
                 <element signature="e#665#4539#0" expanded="false" />
                 <element signature="e#4559#5015#0" expanded="false" />
@@ -138,20 +147,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="JS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="16-EChart模拟迁徙" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -239,12 +234,12 @@
       <option name="presentableId" value="Default" />
       <updated>1489234586866</updated>
       <workItem from="1489234588293" duration="2969000" />
-      <workItem from="1489285288927" duration="1393000" />
+      <workItem from="1489285288927" duration="1476000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4362000" />
+    <option name="totallyTimeSpent" value="4445000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="85" y="23" width="1680" height="1023" extended-state="0" />
@@ -479,7 +474,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/14-Echart微博签到数据点亮中国/js/echarts.js">
+    <entry file="file://$PROJECT_DIR$/14-Echarts微博签到数据点亮中国/js/echarts.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -487,7 +482,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/14-Echart微博签到数据点亮中国/weibo.json">
+    <entry file="file://$PROJECT_DIR$/14-Echarts微博签到数据点亮中国/weibo.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -495,7 +490,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/14-Echart微博签到数据点亮中国/index.html">
+    <entry file="file://$PROJECT_DIR$/14-Echarts微博签到数据点亮中国/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
@@ -503,7 +498,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/15-EChart飞机航线/flights.json">
+    <entry file="file://$PROJECT_DIR$/15-ECharts飞机航线/flights.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
           <caret line="0" column="915" selection-start-line="0" selection-start-column="915" selection-end-line="0" selection-end-column="915" />
@@ -511,7 +506,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/15-EChart飞机航线/js/world.js">
+    <entry file="file://$PROJECT_DIR$/15-ECharts飞机航线/js/world.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -519,17 +514,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/15-EChart飞机航线/index.html">
+    <entry file="file://$PROJECT_DIR$/15-ECharts飞机航线/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="197">
           <caret line="66" column="29" selection-start-line="66" selection-start-column="29" selection-end-line="66" selection-end-column="29" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/16-EChart模拟迁徙/js/china.js">
+    <entry file="file://$PROJECT_DIR$/16-ECharts模拟迁徙/js/china.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -537,10 +532,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/16-EChart模拟迁徙/index.html">
+    <entry file="file://$PROJECT_DIR$/16-ECharts模拟迁徙/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+        <state relative-caret-position="264">
+          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
           <folding>
             <element signature="e#665#4539#0" expanded="false" />
             <element signature="e#4559#5015#0" expanded="false" />
